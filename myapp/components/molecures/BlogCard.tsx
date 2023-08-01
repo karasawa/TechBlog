@@ -18,7 +18,7 @@ export const BlogCard:React.FC<Props> = ({id, title, eyecatch, category}) => {
                         <div className="text-lg bg-stone-400 opacity-80 p-1 rounded ml-5 mt-2">#{category}</div>
                     </div>
                 </div>
-                <img src={eyecatch} className="md:h-44 h-4/5"/>
+                <img src={eyecatch} className="md:h-44 h-3/5"/>
             </div>
         </Link>
   )
