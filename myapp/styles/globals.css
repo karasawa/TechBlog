@@ -1,6 +1,35 @@
-@import "~tailwindcss/base";
-@import "~tailwindcss/components";
-@import "~tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+h2{
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+  font-size: large;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 10px 0;
+}
+
+a {
+  color: blue;
+}
 
 /* html,
 body {
